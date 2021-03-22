@@ -1,8 +1,9 @@
 Fat Arrow 
 -------------
 
-1. shorted code/reduce the line the code/consice code 
+1. short code/reduce the line the code/consice code 
 2. execution fast 
 3. implicit return  possible
 4. this keyword - return minimal context ie empty object 
 5. function over ride conflicts resolved by fat arrow
+6. using fat arrow : make develoer life easy
