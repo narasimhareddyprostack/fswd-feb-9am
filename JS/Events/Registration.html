@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <script>
+      function getData() {
+        alert("Hello, Getting Data");
+      }
+      function zoom() {
+        //logic
+      }
+      function getChar(event) {
+        console.log("Testin");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <label> Name</label>
+      <input type="text" onchange="getChar()" /> <br /><br />
+      <label> Email</label>
+      <input type="text" /> <br /><br />
+      <label> Mobile</label>
+      <input type="text" /> <br /><br />
+      <button onclick="getData()">Registration</button>
+    </form>
+
+    <img src="./img/one.jpg" alt="image" onmouseover="zoom()" />
+  </body>
+</html>
