@@ -1254,8 +1254,9 @@ let contact = [
     nat: "IE",
   },
 ];
-console.log(contact[contact.length - 1].name.last);
+/* console.log(contact[contact.length - 1].name.last);
 
 for (obj of contact) {
   console.log(obj.name.first);
 }
+ */
