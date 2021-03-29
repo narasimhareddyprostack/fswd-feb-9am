@@ -38,8 +38,18 @@
       buildTable(contact);
       function buildTable(data) {
         var table = document.getElementById("myTable");
-
-        for (var i = 0; i < data.length; i++) {
+        let row = data.map((contact) => {
+          return `<tr>
+                <td>${contact.name.title}</td>
+				<td>${contact.name.first}</td>
+				<td>${contact.name.last}</td>
+        		<td>${contact.location.city}</td>
+                <td>${contact.email}</td>
+                <td>${contact.dob.age}</td>
+    	  </tr>`;
+        });
+        table.innerHTML += row;
+        /*  for (var i = 0; i < data.length; i++) {
           var row = `<tr>
                 <td>${data[i].name.title}</td>
 				<td>${data[i].name.first}</td>
@@ -49,7 +59,7 @@
                 <td>${data[i].dob.age}</td>
     	  </tr>`;
           table.innerHTML += row;
-        }
+        } */
       }
     </script>
   </body>
