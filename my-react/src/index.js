@@ -1,4 +1,6 @@
-//ReactDOM.render(1,2);
-import App from "./App";
 import ReactDOM from "react-dom";
+import App from "./App";
+/* 
+const App = require("./App"); */
+
 ReactDOM.render(<App />, document.getElementById("root"));
